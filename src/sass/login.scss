@@ -1,0 +1,85 @@
+//中间部分
+.main{
+	width:100%;
+	.logo{
+		width: 1200px;
+		height:500px;
+		margin: 0 auto;
+		background: url("/images/login_bj.jpg") no-repeat;
+		position: relative;
+		//表单
+		.logo_form{
+			width: 480px;
+			height:440px;
+			position: absolute;
+			top:53px;
+			right:102px;
+			overflow: hidden;
+			border: 1px solid #e5e5e5;
+			//上部
+			.span1{
+				background: url("/images/register_bg.png") no-repeat -253px 0;
+				height:21px;
+				width: 19px;
+				display: inline-block;
+				position: absolute;
+				top:18px;
+				left:22px;
+			}
+			.p1{
+				border-bottom: 1px solid #eaeaea;
+				padding-left: 51px;
+				padding-bottom: 16px;
+				font-size: 14px;
+				margin-top:21px;
+
+			}
+			//中间部分
+			.center{
+				padding-top: 50px;
+				position: relative;
+				.span2{
+					margin-left:40px;
+					margin-right: 30px;
+					display: inline-block;
+					margin-top:30px;
+					font-size: 14px;
+				}
+				input{
+					height:30px;
+					width: 300px;
+					font-size: 14px;
+				}
+				a{
+					display: inline-block;
+					text-decoration: underline;
+					margin-top:30px;
+					position: relative;
+					bottom: 0;
+					right:-400px;
+				}
+			}
+			//提交
+			.btn{
+				background: white;
+				border:1px solid #ccc;
+				height:40px;
+				width: 150px;
+				cursor: pointer;
+				display: block;
+				margin-top: 20px;
+				margin-left:160px;
+			}
+			//下部
+			.span3_div{
+				float: right;
+				padding-top: 30px;
+				margin-right: 50px;
+				a{
+					text-decoration: underline;
+					color:red;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="/css/list.css">
+	<link rel="stylesheet" type="text/css" href="/css/common.css">
+</head>
+<body>
+<script src="/lib/requirejs/require.js" data-main="/js/list.js"></script>
+<header></header>
+	<!-- 搜索栏 -->
+	<div id="search_top">
+		<div class="top">
+			<div class="left">
+				<a href="#">首页</a>
+				<span>&gt;</span>
+				<a href="#">男装</a>
+				<span>&gt;</span>
+				<a href="#">清空搜索条件</a>
+			</div>
+			<div class="right">
+				共 <span>123456</span> 件宝贝
+			</div>
+		</div>
+	</div>
+	<!-- 选择栏 -->
+	<div class="search_tem">
+		<dl class="one">
+			<dt>相关栏目:</dt>
+			<dd>
+				<div class="left">
+					<a href="#">T恤</a>
+					<a href="#">低帮鞋</a>
+					<a href="#">休闲裤</a>
+					<a href="#">寸衫</a>
+					<a href="#">卫衣</a>
+					<a href="#">连衣裙</a>
+					<a href="#">牛仔裤</a>
+					<a href="#">现代庄思华</a>
+					<a href="#">针织衫/毛衣</a>
+				</div>
+				<span class="right">
+					更多
+				</span>
+			</dd>
+		</dl>
+		<dl class="one">
+			<dt>相关栏目:</dt>
+			<dd>
+				<div class="left">
+					<a href="#">T恤</a>
+					<a href="#">低帮鞋</a>
+					<a href="#">休闲裤</a>
+					<a href="#">寸衫</a>
+					<a href="#">卫衣</a>
+					<a href="#">连衣裙</a>
+					<a href="#">牛仔裤</a>
+					<a href="#">现代庄思华</a>
+					<a href="#">针织衫/毛衣</a>
+				</div>
+				<span class="right">
+					更多
+				</span>
+			</dd>
+		</dl>
+		<dl class="one">
+			<dt>相关栏目:</dt>
+			<dd>
+				<div class="left">
+					<a href="#">T恤</a>
+					<a href="#">低帮鞋</a>
+					<a href="#">休闲裤</a>
+					<a href="#">寸衫</a>
+					<a href="#">卫衣</a>
+					<a href="#">连衣裙</a>
+					<a href="#">牛仔裤</a>
+					<a href="#">现代庄思华</a>
+					<a href="#">针织衫/毛衣</a>
+				</div>
+				<span class="right">
+					更多
+				</span>
+			</dd>
+		</dl>
+		<dl class="one">
+			<dt>相关栏目:</dt>
+			<dd>
+				<div class="left">
+					<a href="#">T恤</a>
+					<a href="#">低帮鞋</a>
+					<a href="#">休闲裤</a>
+					<a href="#">寸衫</a>
+					<a href="#">卫衣</a>
+					<a href="#">连衣裙</a>
+					<a href="#">牛仔裤</a>
+					<a href="#">现代庄思华</a>
+					<a href="#">针织衫/毛衣</a>
+				</div>
+				<span class="right">
+					更多
+				</span>
+			</dd>
+		</dl>
+		<dl class="one">
+			<dt>相关栏目:</dt>
+			<dd>
+				<div class="left">
+					<a href="#">T恤</a>
+					<a href="#">低帮鞋</a>
+					<a href="#">休闲裤</a>
+					<a href="#">寸衫</a>
+					<a href="#">卫衣</a>
+					<a href="#">连衣裙</a>
+					<a href="#">牛仔裤</a>
+					<a href="#">现代庄思华</a>
+					<a href="#">针织衫/毛衣</a>
+				</div>
+				<span class="right">
+					更多
+				</span>
+			</dd>
+		</dl>
+		<dl class="one">
+			<dt>相关栏目:</dt>
+			<dd>
+				<div class="left">
+					<a href="#">T恤</a>
+					<a href="#">低帮鞋</a>
+					<a href="#">休闲裤</a>
+					<a href="#">寸衫</a>
+					<a href="#">卫衣</a>
+					<a href="#">连衣裙</a>
+					<a href="#">牛仔裤</a>
+					<a href="#">现代庄思华</a>
+					<a href="#">针织衫/毛衣</a>
+				</div>
+				<span class="right">
+					更多
+				</span>
+			</dd>
+		</dl>
+	</div>
+	<!-- 内容 -->
+	<div class="main">
+		<div class="box"></div>
+		<div class="fanye">
+			<div class="pages">
+				<div class="pages_con">
+					<span>
+						<a href="#">上一页</a>
+					</span>
+					<a class="page_a" href="#">1</a>
+					<a class="page_a" href="#">2</a>
+					<a class="page_a" href="#">3</a>
+					<a class="page_a" href="#">4</a>
+					<a class="page_a" href="#">5</a>
+					<span class="span2">...</span>
+					<span>
+						<a href="#">下一页  ></a>
+					</span>
+					<span class="span3">共12544页，到第
+						<input type="text" name="">页
+					</span>
+					<button class="btn">确定</button>
+				</div>
+			</div>
+		</div>
+	</div>
+<script type="text/html" id="list_tem">
+	{{each list as prod}}
+		<div class="con">
+				<div class="prod_id" style="display: none;">{{prod.id}}</div>
+				<div class="con_one">
+					<div id="succ">加入成功</div>
+					<div class="one_pic">
+						<a target="_black" href="/html/detail.html">
+							<img id="prod_img" src="{{prod.img}}" alt=""></a>
+					</div>
+					<div class="one_txt">
+						<p class="p1">
+							<a target="_black" id="title" href="/html/detail.html">{{prod.title}}</a>
+						</p>
+						<p class="p2">
+							<a  id="title2" target="_black" href="/html/detail.html">{{prod.title2}}</a>
+						</p>
+						<p class="p3">
+							￥<b id="price">{{prod.price}}</b>
+						</p>
+					</div>
+					<div class="hov">
+						<a id="now_buy" class="by" href="javascript:void(0);">立即购买</a>
+						<a class="jion" href="#">加入收藏</a>
+					</div>
+				</div>
+			</div>
+	{{/each}}
+</script>
+<footer></footer>
+</body>
+</html>

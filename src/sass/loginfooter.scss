@@ -1,0 +1,138 @@
+#footer{
+	width:100%; 
+	height:80px;
+	 background:#000; 
+	 margin-top:24px;
+	}
+
+.footer_con{
+	width:1200px; 
+	margin:0px auto; 
+	height:80px;}
+
+.footer_con0{
+	padding-left:244px; 
+	width:520px; 
+	float:left;}
+
+.footer_con0 h3{
+	width:140px; 
+	float:left; 
+	padding-right:32px;
+}
+
+.footer_con0 ul li{
+	width:82px; 
+	padding:0px 11px 0px 20px; 
+	float:left;
+}
+
+.footer_con0 ul li.line{
+	width:2px; 
+	margin:13px 0px 17px; 
+	background-position:-620px 0px; 
+	height:50px; 
+	padding:0px;
+}
+
+.footer_con0 ul li.wx{
+	width:105px; 
+	padding:0px 18px 0px 14px;
+}
+
+.footer_con0 ul li.kh{
+	width:60px; 
+	padding:0px 16px 0px;
+}
+
+.footer_content{
+	width:223px; 
+	margin-top:-8px; 
+	float:left;
+}
+/* service */
+.service{
+	width:1200px;
+	 margin:0px auto; 
+	 overflow:hidden;
+	}
+/* service_left */
+.service_left{
+	width:779px; 
+	float:left; 
+	margin:15px 0px 8px 0px;
+}
+
+.service_left_tit{
+	width:779px;
+}
+
+.service_left_tit ul li{
+	width:124px; 
+	line-height:30px; 
+	float:left; 
+	text-align:center;
+	 font-weight:bold;
+	}
+.service_left_tit ul li.line{
+	width:1px; 
+	background-position:-560px 0px; 
+	height:9px; margin-top:11px; 
+	padding:0px;
+}.service_left_con{
+	width:779px;
+}
+.service_left_con ul li{
+	width:87px; 
+	line-height:30px; 
+	float:left; 
+	padding-left:38px;
+	a{
+		line-height:24px; 
+		display:block;}
+}
+.service_left_con ul li.l{
+	width:100px;
+}
+.service_left_con ul li.n{
+	padding-left:25px;
+}
+/* service_right */
+.service_right{
+	width:420px; 
+	border-left:#999 1px solid; 
+	float:left; 
+	margin-top:44px; 
+	height:117px; 
+	position:relative;  
+}
+.service_right .bg_pic{
+	background:url("/images/index_bg.png") no-repeat;
+	background-position:0px -59px; 
+	width:330px; 
+	height:47px; 
+	position:absolute; 
+	left:43px; 
+	top:0px;}
+.service_right ul li{
+	width:70px; 
+	float:left; 
+	padding:65px 25px 0px 35px;
+}
+.service_right ul li.l{
+	width:100px; 
+	padding:65px 10px 0px 30px;
+}
+.service_right ul li.n{
+	width:100px; 
+	padding:65px 5px 0px 35px;
+}
+/* copyright */
+.copyright{
+	width:1200px; 
+	margin:15px auto; 
+	color:#aeaeb0; 
+	line-height:30px; 
+	text-align:center; 
+	overflow:hidden;
+}

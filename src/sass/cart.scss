@@ -1,0 +1,215 @@
+.main{
+	width:100%;
+	#cart_form{
+		font-size:12px;
+		.all{
+			width: 100%;
+			background: url("/images/shopcart_line.jpg") repeat-x top;
+			.all_top{
+				width: 980px;
+				margin: 0 auto;
+				line-height: 24px;
+				color: #666;
+				font-size: 14px;
+				padding:20px 0px 15px 20px;
+				overflow: hidden;
+			}
+			.prod_title{
+				width: 1000px;
+				height:30px;
+				background: #343434;
+				color: white;
+				margin: 0 auto;
+				line-height: 30px;
+				ul{
+
+					li{
+						width: 115px;
+						padding-left: 20px;
+						float: left;
+						overflow: hidden;
+					}
+					.a{
+						width: 340px;
+							
+					}
+					.b{
+						width: 110px;
+						padding-left: 0px;
+					}
+					.c{
+						width: 105px;
+						text-align:center;
+						padding: 0;
+					}
+					.d{
+						width: 60px;
+					}
+					.e{
+						width: 110px;
+						padding:0;
+						text-align: center;
+					}
+					.f{
+						width: 100px;
+						padding: 0;
+						text-align: center;
+					}
+				}
+			}
+			//中间
+			.content{
+				width: 998px;
+				margin: 20px auto;
+				border: 1px solid #ccc;
+				position: relative;
+				min-height:280px;
+				overflow: hidden;
+				.prods{
+					display: none;
+					.prods_1{
+						overflow: hidden;
+						height:100px;
+						margin-bottom: 10px;
+						border-top: 1px solid #ccc;
+						#prods_inp{
+							margin-top:45px;
+							margin-left:17px;
+							float: left;
+						}
+						.title{
+							display: inline-block;
+							margin-left: 45px;
+							width: 200px;
+							float: left;
+							margin-top:35px;
+						}
+						.prods_img{
+							width: 100px;
+							height: 100px;
+							float: left;
+							margin-left: 45px;
+						}
+						.price{
+							display: inline-block;
+							margin-left: 70px;
+							margin-top:45px;
+							width: 40px;
+						}
+						.p2{
+							display: inline-block;
+							margin-left: 80px;
+							margin-top:45px;
+							margin-right: 15px;
+							width: 108px;
+							.amount{
+							display: inline-block;
+							width: 50px;
+							text-align: center;
+							outline:none;
+							}
+							span{
+								display: inline-block;
+								width: 17px;
+								height:17px;
+								border: 1px solid #ccc;
+								cursor: pointer;
+								text-align: center;
+								line-height: 17px;
+								font-size: 14px;
+							}
+						}
+						.jine{
+							margin-left: 70px;
+							margin-right: 70px;
+							width: 35px;
+						}
+						
+					}
+				}
+				.img_bg{
+					width: 150px;
+					height:195px;
+					position: absolute;
+					left:260px;
+					top:40px;
+					background: url("/images/cart_bg.png") no-repeat -27px -286px;
+				}
+				.sorry{
+					font-size: 18px;
+					color: #a48e5c;
+					position: absolute;
+					right:280px;
+					top:90px;
+					a{
+						margin-top: 20px;
+						font-size: 16px;
+						display: inline-block;
+						width: 118px;
+						height: 34px;
+						color: white;
+						text-align: center;
+						line-height: 34px;
+					}
+					.a1{
+						background: url("/images/cart_bg.png") no-repeat -198px -206px;
+						}
+					.a2{
+						margin-left:10px;
+						 background: url("/images/cart_bg.png") no-repeat -330px -206px;
+					}
+				}
+			}
+			
+		}
+		//尾部
+		.bottom{
+			width: 100%;
+			overflow: hidden;
+			background: url("/images/shopcart_line0.jpg") repeat-x top;
+			height:176px;
+			.bottom_con{
+				width: 1000px;
+				color: #666;
+				overflow: hidden;
+				margin: 0 auto;
+				margin-top: 10px;
+				.con_top{
+					width: 600px;
+					float: left;
+					line-height: 34px;
+					span{
+						margin-left:20px;
+						cursor: pointer;
+					}
+				}
+				.con_right{
+					width: 400px;
+					float: right;
+					text-align: right;
+					position: relative;
+					height:150px;
+					.con_span1{
+						color: red;
+					}
+					.con_span2,.con_span3{
+						font-size: 24px;
+						color: red;
+						font-weight: 600;
+					}
+					.zhifu{
+						width: 179px;
+						height:56px;
+						border: none;
+						cursor: pointer;
+						background: url("/images/cart_bg.png") no-repeat 0 -206px;
+						position: absolute;
+						bottom: 0px;
+						right:0px;
+					}
+				}
+			}
+		}	
+	}
+
+}

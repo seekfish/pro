@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="/css/common.css">
+	<link rel="stylesheet" type="text/css" href="/css/register.css">
+</head>
+<body>
+	<script src="/lib/requirejs/require.js" data-main="/js/register.js"></script>
+	<header></header>
+	<div class="main">
+		<div class="con">
+			<div class="left_form">
+				<form method="post" id="form2">
+					<div class="form2_con">
+						<div class="form2_top">
+							<img src="/images/register_text.png">
+						</div>
+						<div class="center">
+							<p>
+								<span class="span2">账号</span>
+								<input type="text" name="zhanghao" value="邮箱/用户名/手机号">
+								<i id="i1"></i>
+							</p>
+							<p class="p2">
+								<span class="span2">密码</span>
+								<input type="password" name="password">
+								<i id="i2"></i>
+							</p>
+							<p class="p2">
+								<span class="span2">确认密码</span>
+								<input type="password" name="queren">
+								<i id="i3"></i>
+							</p>
+							<!-- <p class="p2">
+								<span class="span2">验证码</span>
+								<input class="yanzheng" type="text" name="yanzheng">
+							</p> -->
+							<p class="p3">
+								<input class="checkbox1"  checked="checked" disabled="disabled" type="checkbox" name="checkbox">
+								<label>	
+										我已同意并阅读
+										<a href="#">《抠抠用户注册协议》</a>
+								</label>
+							
+							</p>
+						</div>
+					</div>
+					<div class="tishi"></div>
+					<div class="wei">
+						<button class="btn" id="btn1" disabled="disabled">注册</button>
+					</div>
+
+				</form>
+			</div>
+
+			<div class="right">
+				<span>已有抠抠账号？</span>
+				<a href="/html/login.html">登录</a>
+			</div>
+		</div>
+	</div>
+	<footer></footer>
+</body>
+</html>
